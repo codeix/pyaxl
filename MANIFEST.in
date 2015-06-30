@@ -1,0 +1,4 @@
+include *.txt *.rst
+include tox.ini
+include .travis.yml
+recursive-include src/pyaxl *.xml *.txt *.py

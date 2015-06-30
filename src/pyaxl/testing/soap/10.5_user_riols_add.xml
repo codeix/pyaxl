@@ -1,0 +1,7 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ns:addUserResponse xmlns:ns="http://www.cisco.com/AXL/API/10.5">
+         <return>{12345678-1234-1234-1234-123123456789}</return>
+      </ns:addUserResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

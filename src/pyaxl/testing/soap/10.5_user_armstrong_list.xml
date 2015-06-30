@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ns:listUserResponse xmlns:ns="http://www.cisco.com/AXL/API/10.5">
+         <return>
+            <user uuid="{5B5C014F-63A8-412F-B793-782BDA987371}">
+               <firstName>Lance</firstName>
+               <lastName>Armstrong</lastName>
+            </user>
+            <user uuid="{5B5C014F-63A8-412F-B793-782BDA987372}">
+               <firstName>Neil</firstName>
+               <lastName>Armstrong</lastName>
+            </user>
+         </return>
+      </ns:listUserResponse>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,194 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+   <soapenv:Body>
+      <ns:getUserResponse xmlns:ns="http://www.cisco.com/AXL/API/10.5">
+         <return>
+            <user uuid="{5B5C014F-63A8-412F-B793-782BDA987371}">
+               <firstName>Samuel</firstName>
+               <middleName/>
+               <lastName>Riolo</lastName>
+               <userid>RiolS</userid>
+               <password/>
+               <pin/>
+               <mailid>Samuel.Riolo@biel-bienne.ch</mailid>
+               <department>IUL IT (FID)</department>
+               <manager/>
+               <userLocale>German Germany</userLocale>
+               <associatedDevices>
+                  <device>CSFRiolS</device>
+               </associatedDevices>
+               <primaryExtension>
+                  <pattern>\+41123456789</pattern>
+                  <routePartitionName>internal</routePartitionName>
+               </primaryExtension>
+               <associatedPc/>
+               <associatedGroups>
+                  <userGroup>
+                     <name>Standard CTI Enabled</name>
+                     <userRoles>
+                        <userRole>Standard CTI Enabled</userRole>
+                     </userRoles>
+                  </userGroup>
+                  <userGroup>
+                     <name>Standard CTI Allow Control of Phones supporting Connected Xfer and conf</name>
+                     <userRoles>
+                        <userRole>Standard CTI Allow Control of Phones supporting Connected Xfer and conf</userRole>
+                     </userRoles>
+                  </userGroup>
+                  <userGroup>
+                     <name>Standard CCM Super Users</name>
+                     <userRoles>
+                        <userRole>Standard CCMADMIN Administration</userRole>
+                        <userRole>Standard SERVICEABILITY Administration</userRole>
+                        <userRole>Standard CCM Admin Users</userRole>
+                        <userRole>Standard Admin Rep Tool Admin</userRole>
+                        <userRole>Standard AXL API Access</userRole>
+                        <userRole>Standard SSO Config Admin</userRole>
+                        <userRole>Standard EM Authentication Proxy Rights</userRole>
+                        <userRole>Standard CUReporting</userRole>
+                     </userRoles>
+                  </userGroup>
+                  <userGroup>
+                     <name>Standard CTI Allow Control of Phones supporting Rollover Mode</name>
+                     <userRoles>
+                        <userRole>Standard CTI Allow Control of Phones supporting Rollover Mode</userRole>
+                     </userRoles>
+                  </userGroup>
+                  <userGroup>
+                     <name>Standard CCM End Users</name>
+                     <userRoles>
+                        <userRole>Standard CCM End Users</userRole>
+                        <userRole>Standard CCMUSER Administration</userRole>
+                     </userRoles>
+                  </userGroup>
+                  <userGroup>
+                     <name>Standard RealtimeAndTraceCollection</name>
+                     <userRoles>
+                        <userRole>Standard RealtimeAndTraceCollection</userRole>
+                     </userRoles>
+                  </userGroup>
+               </associatedGroups>
+               <enableCti>true</enableCti>
+               <digestCredentials/>
+               <phoneProfiles>
+                  <profileName uuid="a44f421a-9749-1942-6d5a-43d23d5fe186">RiolS-dp</profileName>
+               </phoneProfiles>
+               <defaultProfile/>
+               <presenceGroupName uuid="{FDD1D95B-F10E-BF5C-4093-33A3D374E145}">SC Presence Group</presenceGroupName>
+               <subscribeCallingSearchSpaceName/>
+               <enableMobility>true</enableMobility>
+               <enableMobileVoiceAccess>false</enableMobileVoiceAccess>
+               <maxDeskPickupWaitTime>10000</maxDeskPickupWaitTime>
+               <remoteDestinationLimit>4</remoteDestinationLimit>
+               <associatedRemoteDestinationProfiles>
+                  <remoteDestinationProfile>RiolS-rdp</remoteDestinationProfile>
+               </associatedRemoteDestinationProfiles>
+               <passwordCredentials>
+                  <pwdCredPolicyName>Default Credential Policy</pwdCredPolicyName>
+                  <pwdCredUserCantChange>false</pwdCredUserCantChange>
+                  <pwdCredUserMustChange>true</pwdCredUserMustChange>
+                  <pwdCredDoesNotExpire>false</pwdCredDoesNotExpire>
+                  <pwdCredTimeChanged>November 15, 2013 00:03:31 CET</pwdCredTimeChanged>
+                  <pwdCredTimeAdminLockout/>
+                  <pwdCredLockedByAdministrator>false</pwdCredLockedByAdministrator>
+               </passwordCredentials>
+               <pinCredentials>
+                  <pinCredPolicyName>Default Credential Policy</pinCredPolicyName>
+                  <pinCredUserCantChange>true</pinCredUserCantChange>
+                  <pinCredUserMustChange>false</pinCredUserMustChange>
+                  <pinCredDoesNotExpire>false</pinCredDoesNotExpire>
+                  <pinCredTimeChanged>May 26, 2015 16:56:56 CEST</pinCredTimeChanged>
+                  <pinCredTimeAdminLockout/>
+                  <pinCredLockedByAdministrator>false</pinCredLockedByAdministrator>
+               </pinCredentials>
+               <associatedTodAccess>
+                  <todAccess>TOD-RD-e9f8cfa3-5958-ea98-e7b0-70a488710934</todAccess>
+               </associatedTodAccess>
+               <status>1</status>
+               <enableEmcc>false</enableEmcc>
+               <associatedCapfProfiles/>
+               <ctiControlledDeviceProfiles>
+                  <profileName uuid="a44f421a-9749-1942-6d5a-43d23d5fe186">RiolS-dp</profileName>
+               </ctiControlledDeviceProfiles>
+               <patternPrecedence/>
+               <numericUserId/>
+               <mlppPassword/>
+               <customUserFields/>
+               <homeCluster>true</homeCluster>
+               <imAndPresenceEnable>true</imAndPresenceEnable>
+               <serviceProfile uuid="{C298DC01-040C-4C25-A389-C4C73A9DD93B}">UCServiceProfile_Default</serviceProfile>
+               <lineAppearanceAssociationForPresences>
+                  <lineAppearanceAssociationForPresence uuid="{9810E19B-58E1-3ABB-B477-CB1F7654C568}">
+                     <laapAssociate>t</laapAssociate>
+                     <laapProductType>Cisco Unified Client Services Framework</laapProductType>
+                     <laapDeviceName>CSFRiolS</laapDeviceName>
+                     <laapDirectory>\+41123456789</laapDirectory>
+                     <laapPartition>internal</laapPartition>
+                     <laapDescription>+41123456789/Riolo Samuel/biel001</laapDescription>
+                  </lineAppearanceAssociationForPresence>
+                  <lineAppearanceAssociationForPresence uuid="{CEBC8BA3-A334-82FA-AFD7-5F86D4967AEA}">
+                     <laapAssociate>t</laapAssociate>
+                     <laapProductType>Cisco 7940</laapProductType>
+                     <laapDeviceName>RiolS-dp</laapDeviceName>
+                     <laapDirectory>\+41123456789</laapDirectory>
+                     <laapPartition>internal</laapPartition>
+                     <laapDescription>+41123456789/Riolo Samuel/biel001</laapDescription>
+                  </lineAppearanceAssociationForPresence>
+                  <lineAppearanceAssociationForPresence uuid="{CC356CDA-5E51-6E5E-BB46-E446ECE98D44}">
+                     <laapAssociate>t</laapAssociate>
+                     <laapProductType>Cisco 7940</laapProductType>
+                     <laapDeviceName>RiolS-dp</laapDeviceName>
+                     <laapDirectory>\+41123456789</laapDirectory>
+                     <laapPartition>internal</laapPartition>
+                     <laapDescription>+41123456789/Riolo Samuel/biel001</laapDescription>
+                  </lineAppearanceAssociationForPresence>
+                  <lineAppearanceAssociationForPresence uuid="{9810E19B-58E1-3ABB-B477-CB1F7654C568}">
+                     <laapAssociate>t</laapAssociate>
+                     <laapProductType>Cisco Unified Client Services Framework</laapProductType>
+                     <laapDeviceName>CSFRiolS</laapDeviceName>
+                     <laapDirectory>\+41123456789</laapDirectory>
+                     <laapPartition>internal</laapPartition>
+                     <laapDescription>+41123456789/Riolo Samuel/biel001</laapDescription>
+                  </lineAppearanceAssociationForPresence>
+                  <lineAppearanceAssociationForPresence uuid="{CEBC8BA3-A334-82FA-AFD7-5F86D4967AEA}">
+                     <laapAssociate>t</laapAssociate>
+                     <laapProductType>Cisco 7940</laapProductType>
+                     <laapDeviceName>RiolS-dp</laapDeviceName>
+                     <laapDirectory>\+41123456789</laapDirectory>
+                     <laapPartition>internal</laapPartition>
+                     <laapDescription>+41123456789/Riolo Samuel/biel001</laapDescription>
+                  </lineAppearanceAssociationForPresence>
+                  <lineAppearanceAssociationForPresence uuid="{CC356CDA-5E51-6E5E-BB46-E446ECE98D44}">
+                     <laapAssociate>t</laapAssociate>
+                     <laapProductType>Cisco 7940</laapProductType>
+                     <laapDeviceName>RiolS-dp</laapDeviceName>
+                     <laapDirectory>\+41123456789</laapDirectory>
+                     <laapPartition>internal</laapPartition>
+                     <laapDescription>+41123456789/Riolo Samuel/biel001</laapDescription>
+                  </lineAppearanceAssociationForPresence>
+               </lineAppearanceAssociationForPresences>
+               <directoryUri/>
+               <telephoneNumber>+41123456789</telephoneNumber>
+               <title/>
+               <mobileNumber/>
+               <homeNumber/>
+               <pagerNumber/>
+               <extensionsInfo>
+                  <extension uuid="{5906FE9F-1E70-4956-B4E1-A40299F2F7D4}">
+                     <sortOrder/>
+                     <pattern uuid="{3A72C5BC-F9F5-607D-C560-58CBCF550890}">\+41123456789</pattern>
+                     <routePartition>internal</routePartition>
+                  </extension>
+               </extensionsInfo>
+               <selfService>41123456789</selfService>
+               <userProfile/>
+               <calendarPresence>false</calendarPresence>
+               <ldapDirectoryName uuid="{88F8740B-5998-99CB-673D-CB6D82056993}">LDAP_Biel</ldapDirectoryName>
+               <userIdentity>RiolS@bielbienne.local</userIdentity>
+               <nameDialing/>
+               <ipccExtension uuid="{3A72C5BC-F9F5-607D-C560-58CBCF550890}">\+41123456789</ipccExtension>
+               <convertUserAccount uuid="{88F8740B-5998-99CB-673D-CB6D82056993}">LDAP_Biel</convertUserAccount>
+            </user>
+         </return>
+      </ns:getUserResponse>
+   </soapenv:Body>
+</soapenv:Envelope>
