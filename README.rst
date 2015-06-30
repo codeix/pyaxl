@@ -26,7 +26,8 @@ Unified CM server:
 2. Go to Application | Plugins
 3. Click on the Download link by the Cisco CallManager AXL SQL Toolkit Plugin.
 
-The axlsqltoolkit.zip file contains the complete schema definition for different versions of Cisco Unified CM. 
+The axlsqltoolkit.zip file contains the complete schema definition for different versions of Cisco Unified CM.
+
 The important files for each version are:
     * AXLAPI.wsdl
     * AXLEnums.xsd
@@ -279,5 +280,5 @@ Running the doc tests
 
 
 :Author: Samuel Riolo
-:Organization:Biel/Bienne
+:Organization: Biel/Bienne
 :Contact: samuel.riolo@biel-bienne.ch
