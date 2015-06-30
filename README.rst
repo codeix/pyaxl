@@ -277,8 +277,3 @@ Running the doc tests
 .. code-block:: bash
 
     $ tox --  <path to axlsqltoolkit directory>
-
-
-:Author: Samuel Riolo
-:Organization: Biel/Bienne
-:Contact: samuel.riolo@biel-bienne.ch
