@@ -10,7 +10,7 @@ second layer over SUDS, which contains further improvements by `jurko <https://b
 We use `SoupUI <http://www.soapui.org/>`_ and recommend it if you want to work with this library, as it helps
 analizing and understanding how the WSDL from Cisco Callmanager is composed.
 
-pyaxl is licensed under the LGPL 3, see COPYING.txt for details. 
+pyaxl is licensed under the ZPL 2.1, see LICENSE.txt for details. 
 
 
 Import WSDL
