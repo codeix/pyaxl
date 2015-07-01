@@ -18,7 +18,7 @@ setup(name='pyaxl',
       classifiers=[
           'Programming Language :: Python :: 3 :: Only',
           'Natural Language :: English',
-          'License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)',
+          'License :: OSI Approved :: Zope Public License',
           'Operating System :: OS Independent',
           'Development Status :: 4 - Beta'
           
@@ -27,7 +27,7 @@ setup(name='pyaxl',
       author='Samuel Riolo',
       author_email='samuel.riolo@biel-bienne.ch',
       url='https://github.com/bielbienne/pyaxl',
-      license='lgpl',
+      license='ZPL 2.1',
       packages=find_packages('src'),
       package_dir={'': 'src'},
       include_package_data=True,
