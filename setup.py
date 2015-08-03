@@ -5,7 +5,7 @@ version = '1.0'
 
 long_description = (
     open('README.rst').read()
-    + '\n' +
+    + '\n\n\n' +
     open('CHANGES.rst').read()
     + '\n')
 
