@@ -2,7 +2,7 @@
 .. contents::
 
 What is pyaxl
--------------
+=============
 
 pyaxl is a python library accessing the Cisco Callmanger over the AXL interface. This library was build
 inspired by `the work of Sebastian Kratzert <http://kra-se.de/pyAXL/>`_ and works as a
