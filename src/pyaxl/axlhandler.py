@@ -13,8 +13,12 @@ from suds.cache import ObjectCache
 from suds.plugin import MessagePlugin
 from suds.transport.http import HttpAuthenticated
 
-
-FILE_PREFIX = 'file://%s'
+if os.name == 'posix':
+    FILE_PREFIX = 'file://%s'
+elif os.name == 'nt':
+    FILE_PREFIX = 'file:///%s'
+else:
+    raise EnviromentError('system "%s" not supported' % os.name)
 AXLAPI = 'AXLAPI.wsdl'
 
 Logger = logging.Logger('pyaxl')
@@ -144,6 +148,7 @@ def import_wsdl():
         sys.exit(1)
 
     source = os.path.abspath(args.source)
+    source = normpath(source)
     doctor = AXLImportDoctor(os.path.dirname(source))
     cache = get_cache(args.configname)
 
@@ -161,3 +166,14 @@ def import_wsdl():
         for imp in doctor.imports:
             f.write('%s\n' % imp.ns)
         f.close()
+
+
+def normpath(path):
+    """ Replace On Windows back slash to forward slash
+    """
+    if os.name == 'posix':
+        return path
+    elif os.name == 'nt':
+        return path.replace('\\', '/')
+    else:
+        raise EnviromentError('system "%s" not supported' % os.name)
