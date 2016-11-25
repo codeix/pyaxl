@@ -279,9 +279,4 @@ Running the doc tests
     $ tox --  <path to axlsqltoolkit directory>
 
 
-About us
-========
-We are the IT Services of Biel/Bienne, Switzerland.
-http://foss.biel-bienne.ch/blog/
-
 
